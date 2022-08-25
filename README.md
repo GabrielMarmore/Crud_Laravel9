@@ -6,13 +6,23 @@
 <ul>
   <li>PHP 8.0 ou maior;</li>
   <li>Composer;</li>
-  <li>MySql;</li>
+  <li>MySql.</li>
 </ul>
+
+<h2>Baixando pacotes</h2>
+
+<ol>
+  <li>Após baixar o codigo é necessario vincular baixor os pacotes do <strong>Composer</strong>;</li>
+    <li>Abrir cmd;</li>
+    <li>Entrar no diretorio do projeto com o comando 'cd';</li>
+    <li>Digitar: 'componser i'.</li>
+  </ul>
+</ol>
 
 <h2>Configurar o database</h2>
 
 <ol>
-  <li>Após baixar o codigo é necessario vincular seu database corretamente com o <strong>Laravel</strong>;</li>
+  <li>Após baixar os pacotes é necessario vincular seu database corretamente com o <strong>Laravel</strong>;</li>
     <ul><li>Dentro da pasta 'project_empresas' acesse: '.env'</li>
     <li>Altere 'username' e 'password' para os respectivos valores do seu Database, e se necessario a 'port'</li></ul>
 
@@ -26,9 +36,8 @@
 
 <li> Usando o Migrate para criar as tabelas</ li>
   <ul>
-    <li>Abrir cmd;</li>
-    <li>Entrar no diretorio do projeto com o comando 'cd'</li>
-    <li>Digitar: php artisan migrate</li>
+    <li>Dentro do cmd;</li>
+    <li>Digitar: 'php artisan migrate'.</li>
   </ul>
 </ol>
 
@@ -36,9 +45,8 @@
 <ol>
 <li>Usando o artisan: </li>
 <ul>
-    <li>Abrir cmd;</li>
-    <li>Entrar no diretorio do projeto com o comando 'cd'</li>
-    <li>Digitar: php artisan serve</li>
+    <li>Dentro do cmd;</li>
+    <li>Digitar: 'php artisan serve'.</li>
 </ul>
 </ol>
 
